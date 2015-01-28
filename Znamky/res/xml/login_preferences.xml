@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+ 	<EditTextPreference
+ 		android:key="user_name"
+		android:title="Uživatelské jméno"
+		android:dialogTitle="Uživatelské jméno" />
+		
+	<EditTextPreference
+		android:key="user_password"
+		android:title="Heslo"
+		android:dialogTitle="Heslo"
+		android:password="true" />
+		
+	<ListPreference 
+		android:key="which_half"
+		android:title="Výběr pololetí"
+		android:defaultValue="1" 
+		android:entries="@array/halfList"
+		android:entryValues="@array/halfListValues"/>
+		
+</PreferenceScreen>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mastkiv.znamky"
+    android:versionCode="3"
+    android:versionName="1.1" >
+
+    <uses-sdk android:minSdkVersion="7" android:targetSdkVersion="17" />
+    
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:allowBackup="true" >
+        
+        <activity
+            android:name="com.matskiv.znamky.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Sherlock"
+            android:launchMode="singleTop" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.matskiv.znamky.PreferenceActivity"
+            android:label="@string/preference_title"
+            android:theme="@style/Theme.Sherlock" >
+        </activity>
+        
+         <activity
+            android:name="com.matskiv.znamky.MarkDetailActivity"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Sherlock" >
+        </activity>
+        
+        <receiver 
+        	android:name="com.matskiv.znamky.TimeAlarm"
+         	android:process=":remote">
+            
+            <intent-filter>
+				<action android:name="android.intent.action.BOOT_COMPLETED" />
+				<action android:name="android.net.wifi.STATE_CHANGE"/>
+            </intent-filter>
+        </receiver>
+        
+        <service
+			android:name="com.matskiv.znamky.ZnamkyService"
+			android:icon="@drawable/ic_launcher"
+			android:label="@string/service_name"
+        	android:process=":remote" >
+		</service> 
+    </application>
+</manifest>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false">
+	
+    <fragment
+	    android:name="com.matskiv.znamky.SubjectListFragment"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:layout_weight="0.45"
+	    android:id="@+id/subject_list_fragment">
+	</fragment>
+	
+	<fragment
+	    android:name="com.matskiv.znamky.MarkDetailFragment"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:layout_weight="0.55"
+	    android:id="@+id/mark_detail_fragment_b">
+	</fragment>
+    
+</LinearLayout>

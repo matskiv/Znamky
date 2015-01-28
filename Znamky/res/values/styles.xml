@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <style	name="detail_table_row_text"
+        	parent="@android:style/Widget.TextView">
+        	
+        <item name="android:textSize">@dimen/text_size_mark</item>
+        <item name="android:padding">@dimen/halfgap</item>
+        
+    </style>
+    
+    <style 	name="detail_table_row_text_t"
+        	parent="@style/detail_table_row_text">
+        	
+        <item name="android:gravity">right</item>
+        
+    </style>
+    
+</resources>

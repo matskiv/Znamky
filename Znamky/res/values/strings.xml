@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Známky</string>
+    <string name="service_name">Známky Service</string>
+    <string name="preference_title">Nastavení</string>
+    
+	<string name="main_title_a">Podle data</string>
+	<string name="main_title_b">Po předmětech</string>
+	
+	<string name="ab_refresh">Obnovit</string>
+	<string name="ab_preferences">Nastavení</string>
+	
+	<string name="detail_t_date">Datum:</string>
+	<string name="detail_t_subject">Předmět:</string>
+	<string name="detail_t_mark">Známka:</string>
+	<string name="detail_t_type">Hodnota:</string>
+	<string name="detail_t_teacher">Učitel:</string>
+	<string name="detail_t_note">Poznámka:</string>
+	
+	<string name="notification_new_marks">Nové známky !</string>
+	<string name="notification_new_marks_b">Nové známky:</string>
+	<string name="notification_login_err">Chyba přihlášení.</string>
+	<string name="notification_login_err_ct">Zkontrolujte prosím nastavené už. jméno a heslo</string>
+	
+	<string name="refresh_ok">Aktualizace dokončená</string>
+	<string name="refresh_fail_internet">Chybí připojení k internetu</string>
+	<string name="refresh_fail_any">Nenalezené žádné známky</string>
+	<string name="refresh_fail_any_new">Nenalezené žádné nové známky</string>
+	<string name="refresh_fail_login">Chyba přihlášení. Zkontrolujte prosím nastavené už. jméno a heslo</string>	
+	<string name="refresh_fail_host">Chyba při pokusu o spojení se serverem</string>
+	<string name="refresh_fail_download">Chyba při pokusu o stažení známek</string>
+	
+	<string name="preference_yearhalf">Výběr pololetí</string>
+	<string name="preference_password">Heslo</string>
+	<string name="preference_username">Uživatelské jméno</string>
+	<string name="preference_loading_title">Načítam známky</string>
+	<string name="preference_loading_msg">Za chviličku to bude hotové..</string>
+	
+	<string name="preference_button_first_start">Ověřit a pokračovat</string>
+	<string name="preference_button">Ověřit a uložit</string>
+	
+	<string name="api_error">Chyba při pokusu o spojení se serverem.</string>
+</resources>

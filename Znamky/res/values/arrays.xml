@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string-array name="main_titles">
+        <item>@string/main_title_a</item>
+        <item>@string/main_title_b</item>
+    </string-array>
+    
+    <string-array name="halfList">
+        <item>1. pololetí</item>
+        <item>2. pololetí</item>
+    </string-array>
+        
+    <string-array name="halfListValues">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    
+</resources>
