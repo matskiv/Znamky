@@ -8,6 +8,7 @@ Facebook: https://www.facebook.com/ZnamkyPurkynka
 Tato verze je teď nefunkční. Doufám že nějaký stávající student se toho ujme a chybu opraví.
 
 Postup:
+
 1. Vytvořit Fork repositáře a stáhnout ho do PC.
 
 2. Přidat "ActionBarSherlock-master" a "Android-ViewPagerIndicator-master" jako projekty do IDE. Oba musí mít zaškrtnuté: Properties -> Android -> Is library.
