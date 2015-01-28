@@ -1,7 +1,7 @@
 # Známky Purkyňka
 Android klient pro ISAS server Střední průmyslové školy elektrotechnické a informačních technologií Brno.
 
-Web: https://www.facebook.com/ZnamkyPurkynka
+Web: http://znamky.matskiv.com/
 
 Facebook: https://www.facebook.com/ZnamkyPurkynka
 
